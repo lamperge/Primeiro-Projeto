@@ -1,0 +1,144 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --cor1: #ebe5c5;
+    --cor2: #83e1ad;
+    --cor3: #3ddc84;
+    --cor4: #2fa866;
+    --cor5: #1a5c37;
+    --cor6: #063d1e;
+}
+
+body {
+    background-color: var(--cor1);
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor4), var(--cor6) );
+    text-align: center;
+    color:white;
+    height: 200px;
+} 
+
+header > h1 {
+    font-family: "bebas neue", cursive;
+    font-size: 3em;
+    padding: 40px;
+    text-shadow: 1px 1px 1px black;
+    font-weight: 300;
+}
+
+header > p {
+    font-size: 1.2em;
+    text-shadow: 1px 1px 1px black;
+}
+
+nav {
+    text-align: left;
+    background-color: #063d1e;
+    padding: 10px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: var(--cor2);
+    font-weight: 700;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+}
+
+nav > a:hover {
+    color:#063d1e;
+    background-color: var(--cor4);
+    transition-duration: 0.8s;
+}
+
+main {
+    width: 1000px;
+    margin: auto;
+    background-color: white;
+    line-height: 2em;
+    padding: 20px;
+    text-align: justify;
+    box-shadow: rgba(0, 0, 0, 0.589) 0px 1px 10px;
+    border-radius: 0px 0px 10px 10px;
+    margin-bottom: 30px;
+}
+
+main > p {
+    padding: 10px;
+    text-indent: 1em;
+}
+
+main > h1 {
+    color: var(--cor6);
+}
+
+main > img {
+    text-align: center;
+}
+
+.secondtitle {
+    background-image: linear-gradient(to right, var(--cor2), white);
+    color:var(--cor5) ;
+    text-indent: 1em;
+}
+
+#video {
+    background-color: #063d1e;
+    text-align: center;
+    padding: 50px;
+}
+
+#extra {
+    background-color: var(--cor2);
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+#extra > h3 {
+    background-color: var(--cor5);
+    color: white;
+    text-indent: 0.5em;
+    border-radius: 10px 10px 0px 0px;
+    padding: 3px;
+}
+
+#extra > p {
+    padding: 10px;
+    text-indent: 1.5em;
+}
+
+#extra > ol {
+    padding: 0px;
+    margin: 0px;
+}
+
+#lista {
+    columns: 2;
+}
+
+footer {
+    background-color: #063d1e;
+    text-align: center;
+    padding: 5px;
+    color: white;
+    font-size: 0.8em;
+}
+
+footer > a {
+    color: white;
+    text-decoration: none;
+}
+
+footer > a:hover {
+    color: #3ddc84;
+    text-decoration: underline;
+}
