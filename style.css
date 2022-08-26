@@ -28,7 +28,7 @@ header {
     background-image: linear-gradient(to bottom, var(--cor4), var(--cor6) );
     text-align: center;
     color:white;
-    height: 200px;
+    height: 0px;
     margin: auto;
     box-shadow:  5px 5px 10px 10px rgba(0, 0, 0, 0.589);
     min-height: 250px;
@@ -38,17 +38,18 @@ header {
 
 header > h1 {
     font-family: "bebas neue", cursive;
-    font-size: 2.8em;
+    font-size: 3em;
     padding: 40px;
     text-shadow: 1px 1px 1px black;
     font-weight: 300;
+    padding-bottom: 20px;
 }
 
 header > p {
-    font-size: 1.2em;
     text-shadow: 1px 1px 1px black;
     margin:auto; 
-    max-width: 500px;
+    font-size: 1.2em;
+    padding-bottom: 0px;
 }
 
 nav {
@@ -56,6 +57,7 @@ nav {
     background-color: #063d1e;
     padding: 10px;
     margin: auto;
+    padding-top: 0px;
     
 }
 
