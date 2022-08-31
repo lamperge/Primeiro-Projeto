@@ -32,7 +32,7 @@ header {
     margin: auto;
     box-shadow:  5px 5px 10px 10px rgba(0, 0, 0, 0.589);
     min-height: 250px;
-    width: 100%;
+    width: 90%;
     min-width: 360px;
 } 
 
@@ -102,7 +102,7 @@ main > h1 {
 }
 
 main > img {
-    width:100%;
+    width:80%;
     /*a melhor width é 80% nesse layout pois com 100% a imagem quebra o main*/
     margin: auto;
     display: block;
