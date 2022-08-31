@@ -32,7 +32,6 @@ header {
     margin: auto;
     box-shadow:  5px 5px 10px 10px rgba(0, 0, 0, 0.589);
     min-height: 250px;
-    width: 100%;
 } 
 
 header > h1 {
