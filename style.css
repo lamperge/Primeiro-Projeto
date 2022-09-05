@@ -20,6 +20,13 @@
     --cor6: #063d1e;
 }
 
+.naoaguentomais {
+    margin: auto;
+    display: block;
+    width: 800px;
+}
+/*O nome dessa tag é esse porque eu tive uma enorme dificuldade de centralizar as imagens sozinho. Principalmente na hora de deixar responsivo.*/ 
+
 body {
     background-color: var(--cor1);
 }
@@ -31,7 +38,7 @@ header {
     height: 0px;
     margin: auto;
     box-shadow:  5px 5px 10px 10px rgba(0, 0, 0, 0.589);
-    min-height: 250px;
+    min-height: 227px;
 } 
 
 header > h1 {
@@ -47,7 +54,6 @@ header > p {
     text-shadow: 1px 1px 1px black;
     margin:auto; 
     font-size: 1.2em;
-    padding-bottom: 0px;
 }
 
 nav {
@@ -56,7 +62,7 @@ nav {
     padding: 10px;
     margin: auto;
     padding-top: 0px;
-    
+    min-width: 100%;
 }
 
 nav > a {
@@ -75,7 +81,7 @@ nav > a:hover {
 
 main {
     min-width: 300px;
-    max-width: 800px;
+    max-width: 1000px;
     width: 90%;
     /* Por que "max e min" width e não apenas "width"? Se você colocar apenas width, o texto do main não vai ser responsivo e não vai se adaptar a página, quebrando consequentemente. */
     margin: auto;
@@ -97,18 +103,17 @@ main > h1 {
     color: var(--cor6);
     font-family: 'Android',cursive;
     font-weight: 300;
+    font-size: 1.8em;
 }
 
 main > img {
-    width:80%;
-    /*a melhor width é 80% nesse layout pois com 100% a imagem quebra o main*/
-    margin: auto;
-    display: block;
+
 }
 
 main > img.pq {
     max-width: 350px;
     margin: auto;
+    display: block;
 }
 
 .secondtitle {
